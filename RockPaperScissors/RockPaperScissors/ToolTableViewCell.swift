@@ -1,5 +1,5 @@
 //
-//  GameTableViewCell.swift
+//  ToolTableViewCell.swift
 //  RockPaperScissors
 //
 //  Created by Raphael Berendes on 08.04.19.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GameTableViewCell: UITableViewCell {
+class ToolTableViewCell: UITableViewCell {
     
     @IBOutlet weak var toolImageView: UIImageView!
     
