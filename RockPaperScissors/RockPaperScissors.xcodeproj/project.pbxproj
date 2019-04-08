@@ -85,16 +85,11 @@
 		608652B2225B3CFE0093151D /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				608652E1225B442B0093151D /* Controller */,
+				608652E2225B44340093151D /* Model */,
+				608652E3225B445B0093151D /* Resources */,
+				608652E0225B441C0093151D /* View */,
 				608652B3225B3CFE0093151D /* AppDelegate.swift */,
-				608652D5225B3E100093151D /* GameController.swift */,
-				608652D3225B3D4E0093151D /* GameModel.swift */,
-				608652D8225B40D20093151D /* ToolTableViewCell.swift */,
-				608652D9225B40D20093151D /* ToolTableViewCell.xib */,
-				608652DE225B430C0093151D /* GameTableViewController.swift */,
-				608652B7225B3CFE0093151D /* Main.storyboard */,
-				608652BA225B3D000093151D /* Assets.xcassets */,
-				608652BC225B3D000093151D /* LaunchScreen.storyboard */,
-				608652BF225B3D000093151D /* Info.plist */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -106,6 +101,43 @@
 				608652CA225B3D000093151D /* Info.plist */,
 			);
 			path = RockPaperScissorsTests;
+			sourceTree = "<group>";
+		};
+		608652E0225B441C0093151D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				608652DE225B430C0093151D /* GameTableViewController.swift */,
+				608652BC225B3D000093151D /* LaunchScreen.storyboard */,
+				608652B7225B3CFE0093151D /* Main.storyboard */,
+				608652D8225B40D20093151D /* ToolTableViewCell.swift */,
+				608652D9225B40D20093151D /* ToolTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		608652E1225B442B0093151D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				608652D5225B3E100093151D /* GameController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		608652E2225B44340093151D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				608652D3225B3D4E0093151D /* GameModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		608652E3225B445B0093151D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				608652BA225B3D000093151D /* Assets.xcassets */,
+				608652BF225B3D000093151D /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +408,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S99BC7EKEX;
-				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				INFOPLIST_FILE = RockPaperScissors/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,7 +427,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = S99BC7EKEX;
-				INFOPLIST_FILE = RockPaperScissors/Info.plist;
+				INFOPLIST_FILE = RockPaperScissors/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
