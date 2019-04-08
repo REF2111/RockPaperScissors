@@ -12,6 +12,12 @@ enum Tool: Int {
     case rock
     case paper
     case scissors
+    
+    static let count: Int = {
+        var max: Int = 0
+        while let _ = Tool(rawValue: max) { max += 1 }
+        return max
+    }()
 }
 
 enum GameResult: String {
