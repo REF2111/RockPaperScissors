@@ -13,6 +13,7 @@
 		608652BB225B3D000093151D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 608652BA225B3D000093151D /* Assets.xcassets */; };
 		608652BE225B3D000093151D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608652BC225B3D000093151D /* LaunchScreen.storyboard */; };
 		608652C9225B3D000093151D /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608652C8225B3D000093151D /* RockPaperScissorsTests.swift */; };
+		608652D4225B3D4E0093151D /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 608652D3225B3D4E0093151D /* GameModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		608652C4225B3D000093151D /* RockPaperScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		608652C8225B3D000093151D /* RockPaperScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsTests.swift; sourceTree = "<group>"; };
 		608652CA225B3D000093151D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		608652D3225B3D4E0093151D /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				608652BA225B3D000093151D /* Assets.xcassets */,
 				608652BC225B3D000093151D /* LaunchScreen.storyboard */,
 				608652BF225B3D000093151D /* Info.plist */,
+				608652D3225B3D4E0093151D /* GameModel.swift */,
 			);
 			path = RockPaperScissors;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				608652B6225B3CFE0093151D /* ViewController.swift in Sources */,
 				608652B4225B3CFE0093151D /* AppDelegate.swift in Sources */,
+				608652D4225B3D4E0093151D /* GameModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
