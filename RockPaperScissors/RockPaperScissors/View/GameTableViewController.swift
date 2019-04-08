@@ -77,7 +77,10 @@ extension GameTableViewController: GameControllerDelegate {
     func gameDidFinishGame(_ game: Game) {
         
         let title = game.result
-        let message = "Opponent chose \(game.computerTool)"
+        let message =   """
+                        You chose \(game.playerTool).
+                        Opponent chose \(game.computerTool).
+                        """
         
         let alertController = UIAlertController(title: title.rawValue, message: message, preferredStyle: .alert)
         let retryAction = UIAlertAction(title: "Play Again", style: .default)
