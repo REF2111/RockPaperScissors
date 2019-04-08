@@ -83,7 +83,7 @@ extension GameTableViewController: GameControllerDelegate {
                         """
         
         let alertController = UIAlertController(title: title.rawValue, message: message, preferredStyle: .alert)
-        let retryAction = UIAlertAction(title: "Play Again", style: .default)
+        let retryAction = UIAlertAction(title: "Play again", style: .default)
         alertController.addAction(retryAction)
         
         present(alertController, animated: true)
